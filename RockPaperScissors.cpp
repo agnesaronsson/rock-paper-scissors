@@ -3,7 +3,7 @@
 #include <cstdlib>
 using namespace std;
 
-enum selection {rock, scissors, paper} playerMove, computerMove; // enum made global as I couldn't figure out how to pass reference to as parameter
+enum selection {rock, scissors, paper} playerMove, computerMove; 
 
 void play(int* p);
 
